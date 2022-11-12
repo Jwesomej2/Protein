@@ -8,18 +8,42 @@ namespace WindowsFormsApp1.Models
 {
     public class FoodMacros
     {
-        int example = 0;
+        int AmountOfCalories = 0;
+        string FoodName="";
+        int AmountOfProtein =0;
 
         public string FoodName { get; set; }
 
         public int AmountOfCalories { get; set; }
         public int AmountOfProtein { get; set; }
 
-        public int Example 
+        public int AmountOfCalories 
         {
-            get { return example; }
-            set { example = value; }
+            get { return AmountOfCalories; }
+            set { AmountOfCalories = value; }
+            
+            // value = user input
+        
+           
         }
+        public string FoodName 
+        {
+            get { return FoodName; }
+            set { FoodName = value; }
+            
+            // value = user input
+        
+           
+        }
+        public int AmountOfProtein 
+        {
+            get { return AmountOfProtein; }
+            set { AmountOfProtein = value; }
+            
+            // value = user input
+        
+           
+        }        
     }
 
     /*
