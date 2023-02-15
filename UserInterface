@@ -1,0 +1,49 @@
+using System;
+
+namespace WhatsMyInfo
+
+{
+
+    public class Program
+
+    {
+
+        public static void Main()
+
+        {
+
+            string name;
+
+            int age;
+
+            int eaten;
+
+            Console.Write("Please enter your name: ");
+
+            name = Console.ReadLine();
+
+            Console.Write("Please enter your age: ");
+
+            age = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("What did you eat: ");
+
+            birthyear = Convert.ToInt32(Console.ReadLine());
+
+            //Print a blank line
+
+            Console.WriteLine();
+
+            //Show the details that the user entered
+
+            Console.WriteLine("Name is {0}.", name);
+
+            Console.WriteLine("Age is {0}.", age);
+
+            Console.WriteLine("Amount Eaten is {0}.", eaten);
+
+        }
+
+    }
+
+}
